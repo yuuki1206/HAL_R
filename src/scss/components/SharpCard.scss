@@ -1,0 +1,36 @@
+.sharp_card{
+  width: 100%;
+  height: 280px;
+  padding-left: 2rem;
+  border-radius: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .white_wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    .white_area{
+      position: relative;
+      z-index: 40;
+      h3{
+        font-size: 12px;
+      }
+      .underline-f6de79{
+        border-bottom: 4px solid #f6de79;
+      }
+    }
+    &::after{
+      position: absolute;
+      top: -52px;
+      left: -76px;
+      content: '';
+      width: 160%;
+      height: 160%;
+      transform: rotate(16deg);
+      background-color: #F8F9FA;
+      z-index: 10;
+    }
+    
+  }
+}

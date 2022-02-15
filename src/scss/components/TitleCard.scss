@@ -1,0 +1,26 @@
+.font-size-60px{
+  font-size: 60px;
+}
+.font-size-14px{
+  font-size: 14px;
+}
+.line-height-28px{
+  line-height: 28px;
+}
+.mb-36px{
+  margin-bottom: 36px;
+}
+.letter-spacing-4px{
+  letter-spacing: 4px;
+}
+
+.title_card{
+  position: relative;
+  &::before{
+    position: absolute;
+    left: -52px;
+    content: '';
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #f6de79;
+  }
+}

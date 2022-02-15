@@ -1,0 +1,17 @@
+// components
+@use '/src/scss/components/TitleCard.scss' as *;
+@use '/src/scss/components/SharpCard.scss' as *;
+
+// pages
+@use '/src/scss/pages/Header.scss' as *;
+@use '/src/scss/pages/Main.scss' as *;
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.white-space-pre-wrap{
+  white-space: pre-wrap;
+}
